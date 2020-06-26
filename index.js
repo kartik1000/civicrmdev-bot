@@ -4,6 +4,7 @@ module.exports = (robot) => {
 //  require('./lib/jenkins-plugin')(robot)
   require('./lib/new-pr-autoresponder-plugin')(robot)
   require('./lib/autoresponder-plugin')(robot)
+  require('./lib/stale-plugin')(robot)
   require('./lib/branchlabel-plugin')(robot)
 //  require('./lib/extpr-plugin')(robot)
 //  require('./lib/update-status-plugin')(robot)
